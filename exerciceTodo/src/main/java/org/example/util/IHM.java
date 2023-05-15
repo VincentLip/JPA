@@ -31,7 +31,7 @@ public class IHM {
                     getAllTaskAction();
                     break;
                 case "3":
-
+                    updateTaskAction();
                     break;
                 case "4":
                     deleteTaskAction();
@@ -57,7 +57,7 @@ public class IHM {
         em.getTransaction().begin();
         System.out.print("Merci de saisir le titre de la todo : ");
         String title = scanner.nextLine();
-        Todo todo = new Todo(title);
+        Todo todo = new Todo(title,false);
         em.persist(todo);
         em.getTransaction().commit();
         em.close();
@@ -75,9 +75,6 @@ public class IHM {
         }
         em.close();
 
-
-
-
     }
     private void deleteTaskAction(){
         EntityManager em = emf.createEntityManager();
@@ -87,6 +84,18 @@ public class IHM {
         scanner.nextLine();
         Todo todo = em.find(Todo.class,id);
         em.remove(todo);
+        em.getTransaction().commit();
+        em.close();
+    }
+
+    private void updateTaskAction(){
+        EntityManager em = emf.createEntityManager();
+        em.getTransaction().begin();
+        System.out.print("Merci de saisir l'id de la todo à modifier : ");
+        Long id = scanner.nextLong();
+        scanner.nextLine();
+        Todo todo = em.find(Todo.class,id);
+        todo.setStatut(!todo.isStatut());
         em.getTransaction().commit();
         em.close();
     }

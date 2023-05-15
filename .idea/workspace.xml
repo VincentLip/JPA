@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a26c74d-1e36-4c59-a755-32dd098dd23a" name="Changes" comment="" />
+    <list default="true" id="8a26c74d-1e36-4c59-a755-32dd098dd23a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exerciceTodo/src/main/java/org/example/entity/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/exerciceTodo/src/main/java/org/example/entity/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exerciceTodo/src/main/java/org/example/util/IHM.java" beforeDir="false" afterPath="$PROJECT_DIR$/exerciceTodo/src/main/java/org/example/util/IHM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exerciceTodo/target/classes/org/example/entity/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/exerciceTodo/target/classes/org/example/entity/Todo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exerciceTodo/target/classes/org/example/util/IHM.class" beforeDir="false" afterPath="$PROJECT_DIR$/exerciceTodo/target/classes/org/example/util/IHM.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2PpUbqL2Rd9hSsObM7zbNxx8R1D" />
   <component name="ProjectViewState">
@@ -17,6 +29,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -29,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684153590799</updated>
       <workItem from="1684153592030" duration="31000" />
+      <workItem from="1684157212168" duration="1300000" />
     </task>
     <servers />
   </component>

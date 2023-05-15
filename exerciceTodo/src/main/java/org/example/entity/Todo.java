@@ -11,11 +11,22 @@ public class Todo {
     @Basic
     private String title;
 
+    private boolean statut;
+
+    public boolean isStatut() {
+        return statut;
+    }
+
+    public void setStatut(boolean statut) {
+        this.statut = statut;
+    }
+
     public Todo() {
     }
 
-    public Todo(String title) {
+    public Todo(String title, boolean statut) {
         this.title = title;
+        this.statut = statut;
     }
 
     public Long getId() {
@@ -39,6 +50,7 @@ public class Todo {
         return "Todo{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
+                ", statut=" + statut +
                 '}';
     }
 }

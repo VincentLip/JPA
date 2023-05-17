@@ -10,6 +10,7 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>org.example.model.Task</class>
         <class>org.example.model.TaskInfo</class>
+        <class>org.example.model.User</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa_todo3" />

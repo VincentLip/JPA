@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a26c74d-1e36-4c59-a755-32dd098dd23a" name="Changes" comment="" />
+    <list default="true" id="8a26c74d-1e36-4c59-a755-32dd098dd23a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PpUbqL2Rd9hSsObM7zbNxx8R1D" />
   <component name="ProjectViewState">
@@ -44,6 +49,8 @@
       <workItem from="1684157212168" duration="1322000" />
       <workItem from="1684323458659" duration="64000" />
       <workItem from="1684323610922" duration="31000" />
+      <workItem from="1684336666220" duration="81000" />
+      <workItem from="1684737456162" duration="9991000" />
     </task>
     <servers />
   </component>

@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a26c74d-1e36-4c59-a755-32dd098dd23a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ex1Hibernate/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Hibernate/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Hibernate/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Hibernate/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Hibernate/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Hibernate/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Hibernate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Hibernate/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex1Hibernate/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1Hibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ex1Hibernate/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

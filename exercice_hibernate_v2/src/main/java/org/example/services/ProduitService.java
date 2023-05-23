@@ -3,10 +3,7 @@ package org.example.services;
 import org.example.entities.Produit;
 import org.example.interfaces.Repository;
 import org.hibernate.query.Query;
-import org.hibernate.type.DateType;
-import org.hibernate.type.InstantType;
-import org.hibernate.type.IntegerType;
-import org.hibernate.type.StringType;
+import org.hibernate.type.*;
 
 import java.util.Date;
 import java.util.List;
@@ -62,10 +59,10 @@ public class ProduitService extends BaseService implements Repository<Produit> {
     }
 
     @Override
-    public List<Produit> getProductOverPrice(int i) {
+    public List<Produit> getProductOverPrice(double d) {
         session =sessionFactory.openSession();
         Query<Produit> produitQuery = session.createQuery("from Produit where prix > ?1");
-        produitQuery.setParameter(1,i, IntegerType.INSTANCE);
+        produitQuery.setParameter(1,d, DoubleType.INSTANCE);
         List<Produit> produitList = produitQuery.list();
         return produitList;
     }

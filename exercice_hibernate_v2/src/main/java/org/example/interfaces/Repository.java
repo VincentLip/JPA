@@ -17,7 +17,7 @@ public interface Repository<T> {
 
     List<T> getAllProduct();
 
-    List<T> getProductOverPrice(int i);
+    List<T> getProductOverPrice(double d);
 
     List<T> getProductBetweenDate(Date d,Date d1);
 }

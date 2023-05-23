@@ -56,10 +56,10 @@ public class Main {
         }
 
         System.out.println("********************");
-        System.out.println("Veuillez saisir la première date");
+        System.out.println("Veuillez saisir la première date sous le format yyyy-MM-dd");
         Scanner scanner = new Scanner(System.in);
         String date1 = scanner.next();
-        System.out.println("Veuillez saisir la deuxieme date");
+        System.out.println("Veuillez saisir la deuxieme date sous le format yyyy-MM-dd");
         Scanner scanner1 = new Scanner(System.in);
         String date2 = scanner1.next();
 
@@ -79,7 +79,7 @@ public class Main {
         scanner3.nextLine();
         List<Produit> produitList3 = ps.getProductByStock(stock);
         for(Produit p : produitList3){
-            System.out.println("ID :" + p.getId() + "reference : " + p.getReference());
+            System.out.println("ID :" + p.getId() + " reference : " + p.getReference());
         }
 
     }

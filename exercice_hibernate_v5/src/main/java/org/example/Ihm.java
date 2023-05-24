@@ -4,6 +4,7 @@ import org.example.entities.Comment;
 import org.example.entities.Picture;
 import org.example.entities.Produit;
 import org.example.services.CommentService;
+import org.example.services.OrderService;
 import org.example.services.PictureService;
 import org.example.services.ProduitService;
 import org.hibernate.type.LocalDateType;
@@ -23,12 +24,14 @@ public class Ihm {
     private Scanner scanner;
     private PictureService pictureService;
     private CommentService commentService;
+    private OrderService orderService;
 
     public  Ihm() {
         produitService = new ProduitService();
         scanner = new Scanner(System.in);
         pictureService = new PictureService();
         commentService = new CommentService();
+        orderService = new OrderService();
     }
 
     public  void start() {
@@ -82,6 +85,8 @@ public class Ihm {
                 case "15":
                     note4();
                     break;
+                case "16":
+                    addOrder();
 
             }
         }while(!choice.equals("0"));
@@ -105,6 +110,7 @@ public class Ihm {
         System.out.println("13 -- ajouter une image à un produit");
         System.out.println("14 -- ajouter un commentaire à un produit");
         System.out.println("15 -- afficher les produits avec une note supérieur à 4");
+        System.out.println("16 -- Ajouter une commande");
         System.out.println("0 -- Quitter ");
 
 
@@ -313,6 +319,21 @@ public class Ihm {
             Object[] p = (Object[]) o;
             System.out.println(p[0] + " "+p[1]+" "+p[2]);
         }
+    }
+
+    private void addOrder(){
+
+        System.out.println("Merci de saisir la date d'achat (dd/MM/yyyy) : ");
+        String dateS = scanner.nextLine();
+        System.out.println("Merci de saisir la marque : ");
+        String marque = scanner.nextLine();
+        System.out.println("Merci de saisir la reference : ");
+        String ref = scanner.nextLine();
+
+        System.out.println("Merci de saisir le prix : ");
+        double prix = scanner.nextDouble();
+
+
     }
 
 

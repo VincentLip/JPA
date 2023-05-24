@@ -8,5 +8,6 @@
         <mapping class="org.example.entities.Produit" />
         <mapping class="org.example.entities.Picture"/>
         <mapping class="org.example.entities.Comment"/>
+        <mapping class="org.example.entities.Order"/>
     </session-factory>
 </hibernate-configuration>

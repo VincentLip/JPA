@@ -30,6 +30,9 @@ public class Produit {
     @OneToMany(mappedBy = "produit")
     private List<Comment> comments =new ArrayList<>();
 
+    @ManyToMany(mappedBy = "produit")
+    private List<Order> orderList;
+
     public Produit() {
     }
 
